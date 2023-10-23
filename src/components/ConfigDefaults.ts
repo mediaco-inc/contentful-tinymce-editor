@@ -69,7 +69,7 @@ export const colormap: string[] = [
 export const defaultParameters: AppInstallationParameters = {
   apiKey: "",
   plugins:
-    "preview advlist autolink lists link image charmap anchor searchreplace visualblocks visualchars code fullscreen insertdatetime media table paste wordcount autoresize hr nonbreaking paste quickbars emoticons",
+    "preview advlist autolink lists link image charmap anchor searchreplace visualblocks visualchars code fullscreen insertdatetime media table wordcount autoresize nonbreaking quickbars emoticons",
   toolbar:
     "undo redo | styleselect | bold italic underline formatgroup | bullist numlist | table assetgroup link | insertgroup | extragroup",
   formatgroup:

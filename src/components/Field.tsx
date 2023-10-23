@@ -28,22 +28,12 @@ const Field = (props: FieldProps) => {
   const { apiKey } = sdk.parameters.installation as AppInstallationParameters;
 
   const [init, setInit] = React.useState(null as any);
-  const [value, setValue] = React.useState(sdk.field.getValue());
-
+  
   let debounceInterval: any = false;
-
-  const onExternalChange = (externalValue: string) => {
-    setValue(externalValue);
-  };
 
   React.useEffect(() => {
     sdk.window.startAutoResizer();
   }, [sdk.window]);
-
-  React.useEffect(() => {
-    // Handler for external field value changes (e.g. when multiple authors are working on the same entry).
-    return sdk.field.onValueChanged(onExternalChange);
-  });
 
   React.useEffect(() => {
     const {
@@ -247,7 +237,7 @@ const Field = (props: FieldProps) => {
 
   return init ? (
     <Editor
-      value={value}
+      initialValue={sdk.field.getValue()}
       apiKey={apiKey}
       init={init}
       onEditorChange={handleEditorChange}
