@@ -1,12 +1,12 @@
 {
   "name": "contentful-tinymce-editor",
   "version": "1.0.0",
-  "author": "Paulo Gomes",
+  "author": "Clevertech",
   "license": "MIT",
-  "homepage": "https://pauloamgomes.github.io/contentful-tinymce-editor",
+  "homepage": "https://mediaco-inc.github.io/contentful-tinymce-editor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pauloamgomes/contentful-tinymce-editor.git"
+    "url": "git+https://github.com/mediaco-inc/contentful-tinymce-editor.git"
   },
   "dependencies": {
     "@contentful/field-editor-single-line": "^0.11.1",
@@ -17,7 +17,7 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@tinymce/tinymce-react": "^3.8.1",
+    "@tinymce/tinymce-react": "^4.3.0",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.6",
     "@types/react": "^16.9.55",

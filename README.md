@@ -18,7 +18,7 @@ However, there are situations that a WYSIWYG approach makes more sense:
 
 To install this app go to your `organization settings` > `manage private apps` and click in `create app`.
 
-Define the application name (e.g. TinyMCE Editor) and use the following App URL: `https://pauloamgomes.github.io/contentful-tinymce-editor` and
+Define the application name (e.g. TinyMCE Editor) and use the following App URL: `https://mediaco-inc.github.io/contentful-tinymce-editor` and
 ensure that the options `App configuration screen` and `Entry field > Long text` are checked.
 
 ![App create screen](./docs/contentful-tinymce-app-create.png)
