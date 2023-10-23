@@ -226,6 +226,7 @@ const Field = (props: FieldProps) => {
   }, [sdk]);
 
   const handleEditorChange = (newValue: string) => {
+    console.log(`handleEditorChange ${newValue}`)
     if (debounceInterval) {
       clearInterval(debounceInterval);
     }
